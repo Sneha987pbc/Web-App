@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="app-heading">To-do List app</h1>
+    <main>
+        <div id="left">
+            <input class="text-setup" type="text" id="title" Placeholder="Title" required>
+            <textarea class="text-setup" type="message" rows="10" id="description" Placeholder="Description" required></textarea>
+            <input class="text-setup" type="submit" value="save" id="save" onclick="save()">
+        </div>
+
+        <div id="right">
+            <!-- Output -->
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
